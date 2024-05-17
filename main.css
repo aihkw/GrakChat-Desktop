@@ -1,15 +1,15 @@
 /*------ Settings ------*/
 .button_theme {
-  --color: #a5a5b0;
-  --size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
-  font-size: var(--size);
-  user-select: none;
-  fill: var(--color);
+  --color: #a5a5b0 !important;
+  --size: 30px !important;
+  display: flex !importrant;
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative !important;
+  cursor: pointer !important;
+  font-size: var(--size) !important;
+  user-select: none !important;
+  fill: var(--color) !important;
 }
 
 .button_theme .moon {
