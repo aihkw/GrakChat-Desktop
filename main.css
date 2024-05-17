@@ -1,5 +1,5 @@
 /*------ Settings ------*/
-.container {
+.button_theme {
   --color: #a5a5b0;
   --size: 30px;
   display: flex;
@@ -12,28 +12,28 @@
   fill: var(--color);
 }
 
-.container .moon {
+.button_theme .moon {
   position: absolute;
   animation: keyframes-fill .5s;
 }
 
-.container .sun {
+.button_theme .sun {
   position: absolute;
   display: none;
   animation: keyframes-fill .5s;
 }
 
 /* ------ On check event ------ */
-.container input:checked ~ .moon {
+.button_theme input:checked ~ .moon {
   display: none;
 }
 
-.container input:checked ~ .sun {
+.button_theme input:checked ~ .sun {
   display: block;
 }
 
 /* ------ Hide the default checkbox ------ */
-.container input {
+.button_theme input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
