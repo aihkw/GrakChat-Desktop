@@ -10,4 +10,6 @@ GrakChat is available on [Android](https://play.google.com/store/apps/details?id
 You can download GrakChat Desktop [here](https://github.com/aihkw/GrakChat-Desktop/releases).
 1. Download the `.zip` file
 2. Extract the folder to any directory
-3. Run `GrakChat.exe`
+3. Run `GrakChat.exe` inside the extracted folder
+
+Note: Pin GrakChat on taskbar for quick launch!
